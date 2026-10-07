@@ -1,0 +1,82 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.hospital:bedtracker >-----------------------
+[INFO] Building bedtracker 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.2.0:run (default-cli) > test-compile @ bedtracker >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ bedtracker ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ bedtracker ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ bedtracker ---
+[INFO] skip non existing resourceDirectory D:\tt-project\backend\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ bedtracker ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< spring-boot:3.2.0:run (default-cli) < test-compile @ bedtracker <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.2.0:run (default-cli) @ bedtracker ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.0)
+
+2026-09-27T23:16:23.750+05:30  INFO 9120 --- [           main] c.h.bedtracker.BedTrackerApplication     : Starting BedTrackerApplication using Java 25.0.1 with PID 9120 (D:\tt-project\backend\target\classes started by dell in D:\tt-project\backend)
+2026-09-27T23:16:23.755+05:30  INFO 9120 --- [           main] c.h.bedtracker.BedTrackerApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-09-27T23:16:25.610+05:30  INFO 9120 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-27T23:16:25.890+05:30  INFO 9120 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 260 ms. Found 15 JPA repository interfaces.
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.apache.tomcat.jni.Library in an unnamed module (file:/C:/Users/dell/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.16/tomcat-embed-core-10.1.16.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+2026-09-27T23:16:28.875+05:30  INFO 9120 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2026-09-27T23:16:28.902+05:30  INFO 9120 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-27T23:16:28.902+05:30  INFO 9120 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2026-09-27T23:16:29.081+05:30  INFO 9120 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-09-27T23:16:29.082+05:30  INFO 9120 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5198 ms
+2026-09-27T23:16:29.570+05:30  INFO 9120 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-09-27T23:16:29.673+05:30  INFO 9120 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2026-09-27T23:16:29.747+05:30  INFO 9120 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-09-27T23:16:30.397+05:30  INFO 9120 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-27T23:16:30.458+05:30  INFO 9120 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-09-27T23:16:30.888+05:30  INFO 9120 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3d512652
+2026-09-27T23:16:30.892+05:30  INFO 9120 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-09-27T23:16:33.880+05:30  INFO 9120 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-27T23:16:34.297+05:30  INFO 9120 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-27T23:16:34.943+05:30  INFO 9120 --- [           main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-27T23:16:40.755+05:30  WARN 9120 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-27T23:16:41.536+05:30  INFO 9120 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@14150a0a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@52b11deb, org.springframework.security.web.context.SecurityContextHolderFilter@64356fe1, org.springframework.security.web.header.HeaderWriterFilter@727210eb, org.springframework.web.filter.CorsFilter@104ce963, org.springframework.security.web.authentication.logout.LogoutFilter@6d98bf7, com.hospital.bedtracker.config.AuthTokenFilter@ab5d5c8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4fe6f2be, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7590ce28, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6e5e36ab, org.springframework.security.web.session.SessionManagementFilter@37d05d32, org.springframework.security.web.access.ExceptionTranslationFilter@55dbd0f7, org.springframework.security.web.access.intercept.AuthorizationFilter@10dad714]
+2026-09-27T23:16:42.188+05:30  INFO 9120 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path ''
+2026-09-27T23:16:42.190+05:30  INFO 9120 --- [           main] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2026-09-27T23:16:42.190+05:30  INFO 9120 --- [           main] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@2ffa8ce5]]
+2026-09-27T23:16:42.190+05:30  INFO 9120 --- [           main] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2026-09-27T23:16:42.206+05:30  INFO 9120 --- [           main] c.h.bedtracker.BedTrackerApplication     : Started BedTrackerApplication in 19.354 seconds (process running for 20.22)
+2026-09-27T23:17:03.858+05:30  INFO 9120 --- [nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-27T23:17:03.858+05:30  INFO 9120 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-09-27T23:17:03.858+05:30  INFO 9120 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-09-27T23:17:03.883+05:30  WARN 9120 --- [nio-8081-exec-1] o.s.w.s.h.HandlerMappingIntrospector     : Cache miss for REQUEST dispatch to '/api/auth/login' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+2026-09-27T23:17:42.153+05:30  INFO 9120 --- [MessageBroker-3] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 5, active threads = 1, queued tasks = 2, completed tasks = 2]
+2026-09-27T23:25:01.593+05:30  WARN 9120 --- [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m483ms533µs).
+2026-09-27T23:33:29.237+05:30  WARN 9120 --- [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m27s557ms909µs200ns).
+2026-09-27T23:47:42.160+05:30  INFO 9120 --- [MessageBroker-8] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 16 total, 0 closed abnormally (0 connect failure, 0 send limit, 7 transport error)], stompSubProtocol[processed CONNECT(9)-CONNECTED(9)-DISCONNECT(3)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 270], outboundChannel[pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 260], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 4, completed tasks = 359]
+2026-09-28T00:17:42.191+05:30  INFO 9120 --- [MessageBroker-2] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 18 total, 0 closed abnormally (0 connect failure, 0 send limit, 7 transport error)], stompSubProtocol[processed CONNECT(10)-CONNECTED(10)-DISCONNECT(3)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 300], outboundChannel[pool size = 16, active threads = 0, queued tasks = 0, completed tasks = 752], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 4, completed tasks = 824]
+2026-09-28T00:40:10.901+05:30  WARN 9120 --- [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m40s648ms915µs600ns).
+2026-09-28T00:56:02.883+05:30  INFO 9120 --- [MessageBroker-8] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 18 total, 0 closed abnormally (0 connect failure, 0 send limit, 8 transport error)], stompSubProtocol[processed CONNECT(10)-CONNECTED(10)-DISCONNECT(3)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 303], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1005], sockJsScheduler[pool size = 8, active threads = 3, queued tasks = 1, completed tasks = 1369]
+2026-09-28T00:56:28.607+05:30  WARN 9120 --- [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m17s622ms813µs200ns).
+2026-09-28T01:18:52.490+05:30  WARN 9120 --- [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m53s723ms693µs500ns).
+2026-09-28T01:26:02.885+05:30  INFO 9120 --- [MessageBroker-7] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 18 total, 0 closed abnormally (0 connect failure, 0 send limit, 8 transport error)], stompSubProtocol[processed CONNECT(10)-CONNECTED(10)-DISCONNECT(3)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 303], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1005], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 3, completed tasks = 1788]
+2026-09-28T01:32:47.050+05:30  WARN 9120 --- [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m54s394ms698µs500ns).
